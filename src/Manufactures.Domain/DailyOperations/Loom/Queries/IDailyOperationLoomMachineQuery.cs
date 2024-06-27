@@ -12,8 +12,7 @@ namespace Manufactures.Domain.DailyOperations.Loom.Queries
         Task<bool> Upload(ExcelWorksheets sheet, string month, int year, int monthId);
         Task<List<TModel>> GetByMonthYear(int monthId, string year);
 
-       List<TModel> GetDailyReports(DateTime fromDate, DateTime toDate, string jenisMesin, string namaBlok, string namaMtc, string operatornya, string shift, string sp);
-       // List<TModel> GetDailySizingReports(DateTime fromDate, DateTime toDate, string shift, string mcNo, string groupui, string name, string code, string sp);
+        List<TModel> GetDailyReports(DateTime fromDate, DateTime toDate, string jenisMesin, string namaBlok, string namaMtc, string operatornya, string shift, string sp);
 
     }
 }

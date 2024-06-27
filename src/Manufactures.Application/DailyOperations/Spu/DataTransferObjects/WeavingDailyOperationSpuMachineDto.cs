@@ -16,7 +16,8 @@ namespace Manufactures.Application.DailyOperations.Spu.DataTransferObjects
         [JsonProperty(PropertyName = "CreatedDate")]
         public string CreatedDate { get; set; }
 
-       
+
+
         public int Date { get; set; }
 
         public string Week { get; set; }
@@ -71,7 +72,6 @@ namespace Manufactures.Application.DailyOperations.Spu.DataTransferObjects
         public string Efficiency { get; set; }
         //tambahan ku
         public DateTime Periode { get; set; }
-
 
 
 
